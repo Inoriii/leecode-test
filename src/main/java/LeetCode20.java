@@ -7,7 +7,7 @@ import java.util.Stack;
  * @date: 2021/3/10 22:26
  * @description:
  */
-public class Leecode20 {
+public class LeetCode20 {
     /**
      * ()[]{}
      *

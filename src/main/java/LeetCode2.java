@@ -7,7 +7,7 @@ import main.java.common.ListNode;
  * @date: 2021/3/10 22:20
  * @description:
  */
-public class Leecode2 {
+public class LeetCode2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode start = new ListNode();
         ListNode next = start;

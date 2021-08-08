@@ -1,14 +1,11 @@
 package main.java;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * @author sakura
  * @date: 2021/3/23 22:45
  * @description:
  */
-public class Leecode200_3 {
+public class LeetCode200_3 {
     int unionSum;
     int line;
     int stand;
@@ -85,7 +82,7 @@ public class Leecode200_3 {
     }
 
     public static void main(String[] args) {
-        Leecode200_3 leecode200 = new Leecode200_3();
+        LeetCode200_3 leecode200 = new LeetCode200_3();
         char[][] request = new char[][]{
                 {'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},

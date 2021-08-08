@@ -9,7 +9,7 @@ import java.util.Set;
  * @date: 2021/3/22 22:33
  * @description:
  */
-public class Leecode169_1 {
+public class LeetCode169_1 {
     public int majorityElement(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -34,7 +34,7 @@ public class Leecode169_1 {
     }
 
     public static void main(String[] args) {
-        Leecode169_1 leecode169 = new Leecode169_1();
+        LeetCode169_1 leecode169 = new LeetCode169_1();
         int[] request = new int[]{3, 3, 4};
         int result = leecode169.majorityElement(request);
         System.out.println(result);

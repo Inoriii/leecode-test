@@ -5,7 +5,7 @@ package main.java;
  * @date: 2021/3/23 21:42
  * @description:
  */
-public class Leecode200_1 {
+public class LeetCode200_1 {
 
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) {
@@ -36,7 +36,7 @@ public class Leecode200_1 {
     }
 
     public static void main(String[] args) {
-        Leecode200_1 leecode200 = new Leecode200_1();
+        LeetCode200_1 leecode200 = new LeetCode200_1();
         char[][] request = new char[][]{
                 {'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},

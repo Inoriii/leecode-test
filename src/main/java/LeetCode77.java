@@ -8,7 +8,7 @@ import java.util.List;
  * @date: 2021/3/17 22:35
  * @description:
  */
-public class Leecode77 {
+public class LeetCode77 {
     public List<List<Integer>> combine(int n, int k) {
         if (n <= 0 || k <= 0) {
             return new ArrayList<>();
@@ -35,8 +35,8 @@ public class Leecode77 {
     }
 
     public static void main(String[] args) {
-        Leecode77 leecode77 = new Leecode77();
-        List<List<Integer>> combine = leecode77.combine(4, 2);
+        LeetCode77 leetCode77 = new LeetCode77();
+        List<List<Integer>> combine = leetCode77.combine(4, 2);
         System.out.println(combine);
     }
 }

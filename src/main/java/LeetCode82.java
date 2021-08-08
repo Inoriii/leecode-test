@@ -12,7 +12,7 @@ import java.util.Map;
  * @date: 2021/3/25 21:02
  * @description:
  */
-public class Leecode82 {
+public class LeetCode82 {
     Map<Integer, Integer> map = new HashMap<>();
 
     public ListNode deleteDuplicates(ListNode head) {
@@ -44,9 +44,9 @@ public class Leecode82 {
     }
 
     public static void main(String[] args) {
-        Leecode82 leecode82 = new Leecode82();
+        LeetCode82 leetCode82 = new LeetCode82();
         int[] request = new int[]{1, 2, 3, 3, 4, 4, 5};
-        ListNode listNode = leecode82.deleteDuplicates(ListNodeUtil.array2Tree(request));
+        ListNode listNode = leetCode82.deleteDuplicates(ListNodeUtil.array2Tree(request));
         List<Integer> resultList = ListNodeUtil.listNode2List(listNode);
         System.out.println(resultList);
     }

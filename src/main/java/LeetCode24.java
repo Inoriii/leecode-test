@@ -7,7 +7,7 @@ import main.java.common.ListNode;
  * @date: 2021/3/11 22:45
  * @description:
  */
-public class Leecode24 {
+public class LeetCode24 {
     public ListNode swapPairs(ListNode head) {
         ListNode start = new ListNode();
         start.next = head;

@@ -7,7 +7,7 @@ import java.util.*;
  * @date: 2021/3/14 17:13
  * @description:
  */
-public class Leecode56 {
+public class LeetCode56 {
     public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length == 0) {
             return intervals;
@@ -30,9 +30,9 @@ public class Leecode56 {
     }
 
     public static void main(String[] args) {
-        Leecode56 leecode56 = new Leecode56();
+        LeetCode56 leetCode56 = new LeetCode56();
         int[][] intervals = new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        int[][] merge = leecode56.merge(intervals);
+        int[][] merge = leetCode56.merge(intervals);
         for (int[] i : merge) {
             System.out.print("[" + i[0] + "," + i[1] + "]");
             System.out.print(",");

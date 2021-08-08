@@ -7,7 +7,7 @@ import main.java.common.ListNode;
  * @date: 2021/3/10 22:41
  * @description:
  */
-public class Leecode21 {
+public class LeetCode21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) {
             return null;

@@ -8,7 +8,7 @@ import java.util.List;
  * @date: 2021/3/10 23:11
  * @description:
  */
-public class Leecode22 {
+public class LeetCode22 {
     public List<String> generateParenthesis(int n) {
         List<String> combinations = new ArrayList<>();
         generateAll(combinations, 0, 0, n, new StringBuilder());
@@ -37,8 +37,8 @@ public class Leecode22 {
 
 
     public static void main(String[] args) {
-        Leecode22 leecode22 = new Leecode22();
-        List<String> strings = leecode22.generateParenthesis(2);
+        LeetCode22 leetCode22 = new LeetCode22();
+        List<String> strings = leetCode22.generateParenthesis(2);
         System.out.println(strings);
     }
 }

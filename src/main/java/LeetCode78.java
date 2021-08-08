@@ -8,7 +8,7 @@ import java.util.List;
  * @date: 2021/3/17 22:35
  * @description:
  */
-public class Leecode78 {
+public class LeetCode78 {
     public List<List<Integer>> subsets(int[] nums) {
         if (nums == null || nums.length == 0) {
             return new ArrayList<>();
@@ -28,9 +28,9 @@ public class Leecode78 {
     }
 
     public static void main(String[] args) {
-        Leecode78 leecode78 = new Leecode78();
+        LeetCode78 leetCode78 = new LeetCode78();
         int[] nums = new int[]{1, 2, 3};
-        List<List<Integer>> combine = leecode78.subsets(nums);
+        List<List<Integer>> combine = leetCode78.subsets(nums);
         System.out.println(combine);
     }
 }

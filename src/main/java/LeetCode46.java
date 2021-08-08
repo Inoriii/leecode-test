@@ -9,7 +9,7 @@ import java.util.List;
  * @date: 2021/3/13 17:45
  * @description:
  */
-public class Leecode46 {
+public class LeetCode46 {
     public List<List<Integer>> permute(int[] nums) {
         if (nums == null || nums.length == 0) {
             return new ArrayList<>();
@@ -41,9 +41,9 @@ public class Leecode46 {
     }
 
     public static void main(String[] args) {
-        Leecode46 leecode46 = new Leecode46();
+        LeetCode46 leetCode46 = new LeetCode46();
         int[] i = {1, 2, 3};
-        List<List<Integer>> permute = leecode46.permute(i);
+        List<List<Integer>> permute = leetCode46.permute(i);
         System.out.println(permute);
     }
 }

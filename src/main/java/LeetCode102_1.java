@@ -11,7 +11,7 @@ import java.util.List;
  * @date: 2021/3/20 16:49
  * @description:
  */
-public class Leecode102_1 {
+public class LeetCode102_1 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
@@ -36,7 +36,7 @@ public class Leecode102_1 {
     }
 
     public static void main(String[] args) {
-        Leecode102_1 leecode102 = new Leecode102_1();
+        LeetCode102_1 leecode102 = new LeetCode102_1();
         Integer[] request = new Integer[]{3, 9, 20, null, null, 15, 7};
         List<List<Integer>> result = leecode102.levelOrder(TreeNodeUtil.array2Tree(request));
         System.out.println(result);

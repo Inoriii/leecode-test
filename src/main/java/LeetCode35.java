@@ -5,7 +5,7 @@ package main.java;
  * @date: 2021/3/12 22:11
  * @description:
  */
-public class Leecode35 {
+public class LeetCode35 {
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -33,9 +33,9 @@ public class Leecode35 {
     }
 
     public static void main(String[] args) {
-        Leecode35 leecode35 = new Leecode35();
+        LeetCode35 leetCode35 = new LeetCode35();
         int[] a = {1, 3, 5, 6};
-        int i = leecode35.searchInsert(a, 7);
+        int i = leetCode35.searchInsert(a, 7);
         System.out.println(i);
     }
 }

@@ -10,7 +10,7 @@ import java.util.*;
  * @date: 2021/3/21 22:57
  * @description:
  */
-public class Leecode107_3 {
+public class LeetCode107_3 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
@@ -43,7 +43,7 @@ public class Leecode107_3 {
     }
 
     public static void main(String[] args) {
-        Leecode107_3 leecode107 = new Leecode107_3();
+        LeetCode107_3 leecode107 = new LeetCode107_3();
         Integer[] request = new Integer[]{3, 9, 20, null, null, 15, 7};
         List<List<Integer>> result = leecode107.levelOrderBottom(TreeNodeUtil.array2Tree(request));
         System.out.println(result);

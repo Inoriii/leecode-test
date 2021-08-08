@@ -5,7 +5,7 @@ package main.java;
  * @date: 2021/3/14 15:15
  * @description:
  */
-public class Leecode53 {
+public class LeetCode53 {
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

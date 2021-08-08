@@ -8,7 +8,7 @@ import java.util.List;
  * @date: 2021/3/14 17:42
  * @description:
  */
-public class Leecode57 {
+public class LeetCode57 {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         if (intervals == null || intervals.length == 0) {
             return new int[][]{newInterval};
@@ -46,10 +46,10 @@ public class Leecode57 {
     }
 
     public static void main(String[] args) {
-        Leecode57 leecode57 = new Leecode57();
+        LeetCode57 leetCode57 = new LeetCode57();
         int[][] intervals = {{1, 3}, {6, 9}};
         int[] newInterval = {2, 5};
-        int[][] insert = leecode57.insert(intervals, newInterval);
+        int[][] insert = leetCode57.insert(intervals, newInterval);
         for (int[] i : insert) {
             System.out.print("[" + i[0] + "," + i[1] + "]");
             System.out.print(",");

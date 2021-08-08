@@ -7,7 +7,7 @@ import java.util.*;
  * @date: 2021/3/17 23:32
  * @description:
  */
-public class Leecode90 {
+public class LeetCode90 {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         if (nums == null || nums.length == 0) {
             return new ArrayList<>();
@@ -45,9 +45,9 @@ public class Leecode90 {
     }
 
     public static void main(String[] args) {
-        Leecode90 leecode90 = new Leecode90();
+        LeetCode90 leetCode90 = new LeetCode90();
         int[] nums = new int[]{4, 4, 4, 1, 4};
-        List<List<Integer>> combine = leecode90.subsetsWithDup(nums);
+        List<List<Integer>> combine = leetCode90.subsetsWithDup(nums);
         System.out.println(combine);
     }
 }

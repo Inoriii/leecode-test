@@ -8,7 +8,7 @@ import java.util.Queue;
  * @date: 2021/3/23 22:45
  * @description:
  */
-public class Leecode200_2 {
+public class LeetCode200_2 {
     class La {
         int x;
         int y;
@@ -77,7 +77,7 @@ public class Leecode200_2 {
     }
 
     public static void main(String[] args) {
-        Leecode200_2 leecode200 = new Leecode200_2();
+        LeetCode200_2 leecode200 = new LeetCode200_2();
         char[][] request = new char[][]{
                 {'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},

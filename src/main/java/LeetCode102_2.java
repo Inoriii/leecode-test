@@ -13,7 +13,7 @@ import java.util.Queue;
  * @date: 2021/3/20 18:05
  * @description:
  */
-public class Leecode102_2 {
+public class LeetCode102_2 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) {
@@ -44,7 +44,7 @@ public class Leecode102_2 {
     }
 
     public static void main(String[] args) {
-        Leecode102_2 leecode102 = new Leecode102_2();
+        LeetCode102_2 leecode102 = new LeetCode102_2();
         Integer[] request = new Integer[]{3, 9, 20, null, null, 15, 7};
         List<List<Integer>> result = leecode102.levelOrder(TreeNodeUtil.array2Tree(request));
         System.out.println(result);
